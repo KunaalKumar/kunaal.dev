@@ -172,14 +172,14 @@ a:focus, a:hover {
     -webkit-transition: background 0.3s ease-in-out;
     -moz-transition: background 0.3s ease-in-out;
     transition: background 0.3s ease-in-out;
-    color: white;
+    color: #42dca3;
     border: 2px solid white;
     border-radius: 100% !important;
     background: transparent;
 }
 
 .btn-circle:focus, .btn-circle:hover {
-    color: white;
+    color: #42dca3;
     outline: none;
     background: rgba(255, 255, 255, 0.1);
 }
