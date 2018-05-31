@@ -128,8 +128,8 @@ a:focus, a:hover {
     text-align: center;
     color: white;
     background: linear-gradient(
-            rgba(0, 0, 0, 0.7),
-            rgba(0, 0, 0, 0.7)
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
     ),
     url("../img/intro-bg.jpg") no-repeat scroll bottom center;
     -webkit-background-size: cover;
@@ -192,9 +192,12 @@ a:focus, a:hover {
     padding-bottom: 150px;
 }
 
-.download-section {
+.project-section {
     color: white;
-    background: black url("../img/downloads-bg.jpg") no-repeat scroll center center;
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+    ), url("../img/downloads-bg.jpg") no-repeat scroll center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
