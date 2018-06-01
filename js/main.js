@@ -39,4 +39,15 @@
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
 
+    anime({
+        targets: "#mainNav",
+        translateY: [
+            {value: 100, duration: 1000},
+            {value: 0, duration: 600}
+        ],
+        easing: 'easeInOutQuart',
+        duration: 1000,
+    });
+
+
 })(jQuery); // End of use strict
