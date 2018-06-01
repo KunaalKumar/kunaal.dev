@@ -36,9 +36,9 @@
 <body id="page-top">
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top hidden" id="mainNav">
     <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <a class="navbar-brand js-scroll-trigger " href="#page-top">
             <img src="img/letter-k-inside-a-circle.png" alt="Letter-K-Logo" height="42" width="42"
                  title="Icon is made by Dirtyworks from www.flaticon.com and is licensed under CC 3.0">
         </a>
@@ -74,9 +74,9 @@
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h1 class="brand-heading">Hello</h1>
-                    <p class="intro-text">I'm <span style="color:#42dca3;">Kunaal</span>, a software
-                        engineer from the <span style="color: #42dca3;">Bay Area</span><br>
-                        . . . here to make a <span style="color:#42dca3;">difference</span>.</p>
+                    <p class="intro-text">I'm <span class="highlight">Kunaal</span>, a software
+                        engineer from the <span class="highlight">Bay Area</span><br>
+                        . . . here to make a <span class="highlight">difference</span>.</p>
                     <a href="#about" class="btn btn-circle js-scroll-trigger">
                         <i class="fa fa-angle-double-down animated"></i>
                     </a>
@@ -92,11 +92,12 @@
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <h2>About Me</h2>
-                <p>I'm a student at the <span style="color:#42dca3;">University of Utah</span>
+                <p>I'm a <span class="highlight">full-stack developer</span> and a student at the
+                    <span class="highlight">University of Utah</span>
                     studying Computer Science.
-                <p>My <span style="color:#42dca3;">primary objective</span> is to
+                <p>My <span class="highlight">primary objective</span> is to
                     apply myself and help
-                    <span style="color:#42dca3;">solve real world problems</span>.
+                    <span class="highlight">solve real world problems</span>.
                 <p>
                     Take a look at some of my projects!
                 </p>
@@ -109,38 +110,61 @@
 </section>
 
 <!-- Alder Section -->
-<section id="alder" class="project-section content-section text-center">
+<section id="alder" class="alder-section content-section text-center">
     <div class="container">
         <div class="col-lg-8 mx-auto">
             <img src="img/alder_icon.png" title="Alder">
-            <!--<p>-->
+            <p>
             <h2>Alder</h2>
             <p>An ever-growing <span
-                    style="color:#42dca3;">material</span> note taking app built for android with
+                    class="highlight">material</span> note taking app built for android with
                 the <span
-                        style="color:#42dca3;">latest architectural components</span>.
+                        class="highlight">latest architectural components</span>.
             </p>
             <a href="https://play.google.com/store/apps/details?id=com.ashiana.zlifno.alder"
                class="btn btn-default btn-lg">Get Alder</a>
-            <p></p>
+            <br><br>
             <a href="https://github.com/kunaalkumar/alder/"
                class="btn btn-default btn-lg">
                 <span class="network-name">Source Code</span>
             </a>
-            <p></p>
-            <a href="#social" class="btn btn-circle js-scroll-trigger">
-                <i class="fa fa-angle-double-down animated"></i>
-            </a>
+            <br><br>
+            <p>
+                <a href="#web_scraper" class="btn btn-circle js-scroll-trigger">
+                    <i class="fa fa-angle-double-down animated"></i>
+                </a>
+        </div>
+    </div>
+</section>
+
+<!-- Instagram Section -->
+<section id="web_scraper" class="content-section text-center">
+    <div class="container">
+        <div class="col-lg-8 mx-auto">
+            <h2>Instagram: Auto Follow</h2>
+            <p>
+                A <span class="highlight">headless browser</span> used to auto follow users on
+                Instagram.
+            <p>
+                <a href="https://github.com/KunaalKumar/WebScraper"
+                   class="btn btn-default btn-lg">
+                    <span class="network-name">Source Code</span>
+                </a>
+            <p>
+                <a href="#social" class="btn btn-circle js-scroll-trigger">
+                    <i class="fa fa-angle-double-down animated"></i>
+                </a>
         </div>
     </div>
 </section>
 
 <!-- Contact Section -->
-<section id="social" class="content-section text-center">
+<section id="social" class="social-section content-section text-center">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <h2>Get in touch</h2>
+                <br>
                 <ul class="list-inline banner-social-buttons">
                     <li class="list-inline-item">
                         <a href="https://play.google.com/store/apps/developer?id=Zlifno"
@@ -181,9 +205,6 @@
 
 <!-- Plugin JavaScript -->
 <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-<!--anime.js-->
-<script src="js/anime.min.js"></script>
 
 <!-- Custom scripts for this template -->
 <script src="js/main.js"></script>
