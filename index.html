@@ -68,7 +68,7 @@
 </nav>
 
 <!-- Intro Header -->
-<header class="masthead">
+<header class="masthead" data-parallax="scroll" data-image-src="img/intro-bg.jpg" data-speed="0.3">
     <div class="intro-body">
         <div class="container">
             <div class="row">
@@ -110,7 +110,8 @@
 </section>
 
 <!-- Alder Section -->
-<section id="alder" class="alder-section content-section text-center">
+<section id="alder" class="alder-section content-section text-center" data-parallax="scroll"
+         data-image-src="img/downloads-bg.jpg" data-speed="0.3">
     <div class="container">
         <div class="col-lg-8 mx-auto">
             <img src="img/alder_icon.png" title="Alder">
@@ -158,8 +159,9 @@
     </div>
 </section>
 
-<!-- Contact Section -->
-<section id="social" class="social-section content-section text-center">
+<!-- Social Section -->
+<section id="social" class="social-section content-section text-center" data-parallax="scroll"
+         data-image-src="img/get_in_touch.jpg" data-speed="0.3">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto">
@@ -206,9 +208,19 @@
 <!-- Plugin JavaScript -->
 <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
+<!--Parallax for elements-->
+<script src="js/rellax.min.js"></script>
+
+<!--Parallax for background-->
+<script src="js/parallax.min.js"></script>
+
 <!-- Custom scripts for this template -->
 <script src="js/main.js"></script>
 
+<!--<script>-->
+<!--// Also can pass in optional settings block-->
+<!--var rellax = new Rellax('.rellax');-->
+<!--</script>-->
 </body>
 
 </html>

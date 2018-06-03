@@ -41,5 +41,4 @@
 
     $("#mainNav").fadeIn(1000).removeClass("hidden");
 
-
 })(jQuery); // End of use strict

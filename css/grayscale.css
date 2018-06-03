@@ -142,11 +142,12 @@ a:focus, a:hover {
             rgba(0, 0, 0, 0.4),
             rgba(0, 0, 0, 0.4)
     ),
-    url("../img/intro-bg.jpg") no-repeat scroll bottom center;
+    no-repeat scroll bottom center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
 }
 
 .masthead .intro-body {
@@ -208,7 +209,7 @@ a:focus, a:hover {
     background: linear-gradient(
             rgba(0, 0, 0, 0.4),
             rgba(0, 0, 0, 0.4)
-    ), url("../img/downloads-bg.jpg") no-repeat scroll center center;
+    ), no-repeat scroll center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -220,7 +221,7 @@ a:focus, a:hover {
     background: linear-gradient(
             rgba(0, 0, 0, 0.4),
             rgba(0, 0, 0, 0.4)
-    ), url("../img/get_in_touch.jpg") no-repeat scroll center center;
+    ), no-repeat scroll center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
