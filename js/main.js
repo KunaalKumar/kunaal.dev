@@ -3,7 +3,7 @@
 
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+        if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
             var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
             if (target.length) {
@@ -40,5 +40,8 @@
     $(window).scroll(navbarCollapse);
 
     $("#mainNav").fadeIn(1000).removeClass("hidden");
+
+    window.sr = ScrollReveal();
+    sr.reveal('.intro123');
 
 })(jQuery); // End of use strict
