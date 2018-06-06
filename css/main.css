@@ -143,6 +143,9 @@ a:focus, a:hover {
             rgba(0, 0, 0, 0.4)
     ),
     url("../img/intro-bg.jpg") no-repeat scroll bottom center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -210,6 +213,9 @@ a:focus, a:hover {
             rgba(0, 0, 0, 0.4)
     ),
     url("../img/downloads-bg.jpg") no-repeat scroll center center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -222,6 +228,9 @@ a:focus, a:hover {
             rgba(0, 0, 0, 0.4),
             rgba(0, 0, 0, 0.4)
     ), url("../img/get_in_touch.jpg") no-repeat scroll center center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
