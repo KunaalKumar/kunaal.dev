@@ -49,18 +49,24 @@ var mainNavAnim = {
 
 var brandHeadingAnim = {
     origin: "top",
-    scale: 10,
+    scale: 2,
 };
 
 var introTextAnim = {
     origin: "bottom",
-    distance: "100px",
+    distance: "30px",
     scale: 0.25,
     opacity: 0,
 };
 
-window.sr = ScrollReveal({duration: 1500});
+var introBtnAnim = {
+    origin: "bottom",
+    distance: "50px",
+    opacity: 0.25,
+};
+
+window.sr = ScrollReveal({duration: 1000});
 sr.reveal(".brand-heading", brandHeadingAnim);
 sr.reveal(".intro-text", {delay: 1500}, introTextAnim);
 sr.reveal("#mainNav", {delay: 1500}, mainNavAnim);
-sr.reveal("#introBtn", {delay: 2000}, mainNavAnim);
+sr.reveal("#introBtn", {delay: 2000}, introBtnAnim);
