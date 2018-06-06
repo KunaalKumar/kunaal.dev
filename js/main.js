@@ -55,10 +55,10 @@ var headingAnim = {
     // scale: 2,
 };
 
-var introTextAnim = {
+var descrTextAnim = {
     origin: "bottom",
     distance: "30px",
-    delay: 1000,
+    delay: 500,
     scale: 0.25,
     duration: 1000,
     opacity: 0,
@@ -71,11 +71,8 @@ var downBtnAnim = {
     duration: 1000
 };
 
-<!-- Intro Header Animation-->
 window.sr = ScrollReveal();
 sr.reveal(".brand-heading", headingAnim);
-sr.reveal(".intro-text", introTextAnim);
+sr.reveal(".desc-text", descrTextAnim);
 sr.reveal("#mainNav", mainNavAnim);
 sr.reveal(".downBtn", downBtnAnim);
-
-<!-- About Section Animation-->

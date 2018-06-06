@@ -158,7 +158,7 @@ a:focus, a:hover {
     font-size: 50px;
 }
 
-.masthead .intro-body .intro-text {
+.masthead .intro-body .desc-text {
     font-size: 18px;
 }
 
@@ -172,7 +172,7 @@ a:focus, a:hover {
         font-size: 100px;
     }
 
-    .masthead .intro-body .intro-text {
+    .masthead .intro-body .desc-text {
         font-size: 22px;
     }
 }
