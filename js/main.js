@@ -39,9 +39,28 @@
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
 
-    $("#mainNav").fadeIn(1000).removeClass("hidden");
-
-    window.sr = ScrollReveal();
-    sr.reveal('.intro123');
-
 })(jQuery); // End of use strict
+
+var mainNavAnim = {
+    origin: "top",
+    distance: "24px",
+    scale: 1.25,
+};
+
+var brandHeadingAnim = {
+    origin: "top",
+    scale: 10,
+};
+
+var introTextAnim = {
+    origin: "bottom",
+    distance: "100px",
+    scale: 0.25,
+    opacity: 0,
+};
+
+window.sr = ScrollReveal({duration: 1500});
+sr.reveal(".brand-heading", brandHeadingAnim);
+sr.reveal(".intro-text", {delay: 1500}, introTextAnim);
+sr.reveal("#mainNav", {delay: 1500}, mainNavAnim);
+sr.reveal("#introBtn", {delay: 2000}, mainNavAnim);

@@ -343,10 +343,6 @@ img::-moz-selection {
     height: 2px;
 }
 
-.hidden {
-    display: none;
-}
-
 .highlight {
     color: #42dca3;
 }
