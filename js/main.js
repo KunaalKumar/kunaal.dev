@@ -49,7 +49,7 @@ var mainNavAnim = {
 
 var brandHeadingAnim = {
     origin: "top",
-    scale: 2,
+    // scale: 2,
 };
 
 var introTextAnim = {
