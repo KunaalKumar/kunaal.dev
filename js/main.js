@@ -40,7 +40,7 @@
     $(window).scroll(navbarCollapse);
 
     var typed = new Typed("#typed", {
-        strings: ['student', 'software developer', 'coder'],
+        strings: ['student', 'software developer', 'coder', 'mobile developer', 'full-stack developer', 'web developer'],
         typeSpeed: 50,
         backSpeed: 30,
         backDelay: 700,
@@ -48,6 +48,8 @@
         loop: true,
         loopCount: Infinity,
     });
+
+    // particlesJS.load('particles-js', 'particlesjs-config.json');
 
 })(jQuery); // End of use strict
 
