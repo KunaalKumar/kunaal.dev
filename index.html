@@ -2,8 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta content="I'm Kunaal, a full-stack web developer from the San Fransisco Bay Area on a journey to become an engineer. Get to know me!"
-          name="description">
     <!-- Chrome, Firefox OS and Opera -->
     <meta name="theme-color" content="#42dca3">
     <!-- Windows Phone -->
@@ -11,8 +9,9 @@
     <!-- iOS Safari -->
     <meta name="apple-mobile-web-app-status-bar-style" content="#42dca3">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description"
+          content="I'm Kunaal, a full-stack web developer from the San Fransisco Bay Area on a journey to become an engineer. Get to know me!">
+    <meta name="author" content="Kunaal Kumar">
 
     <title>Kunaal Kumar</title>
 
@@ -31,6 +30,8 @@
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
 
+    <script type="text/javascript" src="js/typed.min.js"></script>
+
     <script src="js/pace.min.js"></script>
 
 </head>
@@ -41,6 +42,7 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
         <a class="navbar-brand js-scroll-trigger " href="#page-top">
+            <!--TODO: Resize image to 32x32-->
             <img src="img/letter-k-inside-a-circle.png" alt="Letter-K-Logo" height="32" width="32"
                  id="icon"
                  title="Icon is made by Dirtyworks from www.flaticon.com and is licensed under CC 3.0">
@@ -79,8 +81,8 @@
                     <h1 class="brand-heading">Hello</h1>
                     <p class="desc-text">I'm <span
                             class="highlight">Kunaal</span>, a
-                        software
-                        engineer from the <span class="highlight">Bay Area</span><br>
+                        <span id="typed" class="highlight"></span> from the <span
+                                class="highlight">Bay Area</span><br>
                         . . . here to make a <span class="highlight">difference</span>.</p>
                     <div class="downBtn">
                         <a href="#about" class="btn btn-circle js-scroll-trigger">
@@ -199,6 +201,8 @@
             Reach me at <a class="highlight" href="mailto:me@kunaalkumar.com">me@kunaalkumar.com</a>
         </p>
     </div>
+    <br>
+
 </footer>
 
 <!-- Bootstrap core JavaScript -->
@@ -209,7 +213,6 @@
 <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
 <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-
 <!-- Custom scripts for this template -->
 <script src="js/main.js"></script>
 </body>

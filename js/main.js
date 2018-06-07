@@ -39,6 +39,16 @@
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
 
+    var typed = new Typed("#typed", {
+        strings: ['student', 'software developer', 'coder'],
+        typeSpeed: 50,
+        backSpeed: 30,
+        backDelay: 700,
+        fadeOut: false,
+        loop: true,
+        loopCount: Infinity,
+    });
+
 })(jQuery); // End of use strict
 
 var mainNavAnim = {
