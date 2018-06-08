@@ -74,8 +74,42 @@ var descrTextAnim = {
     opacity: 0,
 };
 
+var descrTextAnimDelay1 = {
+    origin: "bottom",
+    distance: "30px",
+    delay: 800,
+    scale: 0.25,
+    duration: 1000,
+    opacity: 0,
+};
+
+var descrTextAnimDelay2 = {
+    origin: "bottom",
+    distance: "30px",
+    delay: 1100,
+    scale: 0.25,
+    duration: 1000,
+    opacity: 0,
+};
+
+var descrTextAnimDelay3 = {
+    origin: "bottom",
+    distance: "30px",
+    delay: 1400,
+    scale: 0.25,
+    duration: 1000,
+    opacity: 0,
+};
+
 var downBtnAnim = {
     delay: 1500,
+    origin: "top",
+    rotate: {x: 10, y: 100, z: 100},
+    duration: 1000
+};
+
+var downBtnAnimDelay1 = {
+    delay: 1700,
     origin: "top",
     rotate: {x: 10, y: 100, z: 100},
     duration: 1000
@@ -84,5 +118,9 @@ var downBtnAnim = {
 window.sr = ScrollReveal();
 sr.reveal(".brand-heading", headingAnim);
 sr.reveal(".desc-text", descrTextAnim);
+sr.reveal(".desc-text1", descrTextAnimDelay1);
+sr.reveal(".desc-text2", descrTextAnimDelay2);
+sr.reveal(".desc-text3", descrTextAnimDelay3);
 sr.reveal("#mainNav", mainNavAnim);
 sr.reveal(".downBtn", downBtnAnim);
+sr.reveal(".downBtnDelay1", downBtnAnimDelay1);
