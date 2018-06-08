@@ -49,8 +49,6 @@
         loopCount: Infinity,
     });
 
-    // particlesJS.load('particles-js', 'particlesjs-config.json');
-
 })(jQuery); // End of use strict
 
 var mainNavAnim = {
