@@ -1,14 +1,6 @@
-.vertical-align-helper:before {
-    content: '';
-    display: inline-block;
+html,
+body {
     height: 100%;
-    vertical-align: middle;
-    margin-left: -5px
-}
-
-.vertical-align-helper > [class*=vertical-align--] {
-    display: inline-block;
-    width: 100%
 }
 
 .background-color--red {
@@ -16,5 +8,45 @@
 }
 
 .background-color--blue {
+    background-color: blue;
+}
+
+.section-header--left {
+    display: block;
+    float: left;
+    height: 100%;
+    width: 50%;
+    background-color: red;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-header--right {
+    display: block;
+    float: right;
+    height: 100%;
+    width: 50%;
+    background-color: red;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-description--right {
+    display: block;
+    float: right;
+    height: 100%;
+    width: 50%;
+    background-color: blue;
+}
+
+.section-description--left {
+    display: block;
+    float: left;
+    height: 100%;
+    width: 50%;
     background-color: blue;
 }
