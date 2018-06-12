@@ -329,6 +329,9 @@ img::-moz-selection {
     padding: 200px 0;
     text-align: center;
     color: white;
+}
+
+.intro-bg {
     background: linear-gradient(
             rgba(0, 0, 0, 0.4),
             rgba(0, 0, 0, 0.4)
@@ -358,4 +361,18 @@ img::-moz-selection {
     100% {
         opacity: 1;
     }
+}
+
+.window--left {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.window--right {
+    display: block;
+    float: right;
+    width: 50%;
+    height: 100%;
 }
