@@ -125,36 +125,32 @@ a:focus, a:hover {
         color: #42dca3;
         background-color: rgba(255, 255, 255, 0.3);
     }
-
-    /*#mainNav .nav-link.active:hover {*/
-    /*backgroudbco: rgba(66, 220, 163, 0.3);*/
-    /*}*/
 }
 
-#particles-js .intro-body {
+.intro-body {
     display: table-cell;
     vertical-align: middle;
 }
 
-#particles-js .intro-body .brand-heading {
+.intro-body .brand-heading {
     font-size: 50px;
 }
 
-#particles-js .intro-body .desc-text {
+.intro-body .desc-text {
     font-size: 18px;
 }
 
 @media (min-width: 768px) {
-    #particles-js {
+    .intro-body {
         height: 100%;
         padding: 0;
     }
 
-    #particles-js .intro-body .brand-heading {
+    .intro-body .brand-heading {
         font-size: 100px;
     }
 
-    #particles-js .intro-body .desc-text {
+    .intro-body .desc-text {
         font-size: 22px;
     }
 }
@@ -216,19 +212,10 @@ a:focus, a:hover {
     background-size: cover;
 }
 
-#map {
-    width: 100%;
-    height: 300px;
-}
-
 @media (min-width: 992px) {
     .content-section {
         padding-top: 200px;
         padding-bottom: 200px;
-    }
-
-    #map {
-        height: 350px;
     }
 }
 
@@ -335,7 +322,7 @@ img::-moz-selection {
     color: #42dca3;
 }
 
-#particles-js {
+.intro-body {
     display: table;
     width: 100%;
     height: 100%;
