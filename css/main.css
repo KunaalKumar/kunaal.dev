@@ -155,6 +155,10 @@ a:focus, a:hover {
     }
 }
 
+.heading {
+    font-size: 100px;
+}
+
 .btn-circle {
     font-size: 26px;
     width: 55px;
