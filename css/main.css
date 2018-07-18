@@ -197,12 +197,25 @@ a:focus, a:hover {
     background-size: cover;
 }
 
-.social-section {
+.ignis-section {
     color: white;
     background: linear-gradient(
-            rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.4)
-    ), url("../img/get_in_touch.jpg") no-repeat scroll center center;
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+    ),
+    url("../img/ignis-bg.jpg") no-repeat scroll center center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.social-section {
+    color: white;
+    background: black;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
