@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.kunaalkumar.ignis",
+    "sha256_cert_fingerprints":
+    ["5B:10:EE:8D:64:41:6E:BE:36:85:B6:7F:23:35:F4:EF:BF:00:5F:F0:44:4D:AA:D8:8F:D1:D4:47:D7:2C:52:1D"]
+  }
+}]
