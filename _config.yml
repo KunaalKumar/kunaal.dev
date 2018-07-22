@@ -1,1 +1,6 @@
+#Needed for Ignis app link
 include: /.well-known
+
+#Redirect plugin used for custom 404 page
+plugins:
+  - jekyll-redirect-from
