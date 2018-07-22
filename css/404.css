@@ -1,8 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:700);
 
-$color1: #EE4B5E;
-$color2: #342643;
-$color3: #1FA9D6;
+:root {
+    --color1: #EE4B5E;
+    --color2: #342643;
+    --color3: #1FA9D6;
+}
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -14,7 +16,7 @@ body {
     background: no-repeat center center fixed; 
     background-size: cover;
     font-family: 'Raleway', sans-serif;
-    background-color: $color2; 
+    background-color: var(--color2); 
     height: 100%;
 }
 
@@ -29,13 +31,13 @@ body {
 .title {
     font-size: 6em;
     font-weight: 700;
-    color: $color1;
+    color: var(--color1);
 }
 
 .subtitle {
     font-size: 40px;
     font-weight: 700;
-    color: $color3;
+    color: var(--color3);
 }
 
 .buttons {
@@ -43,16 +45,16 @@ body {
     
     a.button {
         font-weight: 700;
-        border: 2px solid $color1;
+        border: 2px solid var(--color1);
         text-decoration: none;
         padding: 15px;
         text-transform: uppercase;
-        color: $color1;
+        color: var(--color1);
         border-radius: 26px;
         transition: all 0.2s ease-in-out;
         
         &:hover {
-            background-color: $color1;
+            background-color: var(--color1);
             color: white;
             transition: all 0.2s ease-in-out;
         }
@@ -60,4 +62,3 @@ body {
 
     
 }
-
