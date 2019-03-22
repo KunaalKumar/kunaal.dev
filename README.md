@@ -1,3 +1,0 @@
-# Website
-
-TODO: Add credits
