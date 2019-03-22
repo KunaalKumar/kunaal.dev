@@ -115,7 +115,7 @@ var downBtnAnimDelay1 = {
     duration: 1000
 };
 
-window.sr = ScrollReveal({reset: true});
+window.sr = ScrollReveal();
 sr.reveal(".brand-heading", headingAnim);
 sr.reveal(".desc-text", descrTextAnim);
 sr.reveal(".desc-text1", descrTextAnimDelay1);
