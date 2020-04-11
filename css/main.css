@@ -229,6 +229,22 @@ a:focus, a:hover {
     background-size: cover;
 }
 
+.sar-section {
+    color: white;
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.4)
+    ),
+    url("../img/sar-bg.jpg") no-repeat scroll center center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .social-section {
     color: white;
     background: black;
