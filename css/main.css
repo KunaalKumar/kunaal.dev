@@ -9,14 +9,14 @@ body {
 
 /*Colored scroll bar*/
 
-/*body::-webkit-scrollbar {*/
-/*width: 0.2em;*/
-/*background: transparent;*/
-/*}*/
+body::-webkit-scrollbar {
+width: 0.2em;
+background: transparent;
+}
 
-/*body::-webkit-scrollbar-thumb {*/
-/*background-color: #42dca3;*/
-/*}*/
+body::-webkit-scrollbar-thumb {
+background-color: #42dca3;
+}
 
 html {
     width: 100%;
@@ -60,6 +60,31 @@ a {
 a:focus, a:hover {
     text-decoration: none;
     color: #1d9b6c;
+}
+
+headingText {
+    font-size: 64px;
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin: 0 0 35px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.position {
+    color: #42dca3;
+    font-size: 24px;
+    text-transform: none;
+    margin: 0;
+}
+
+.year {
+    font-size: 12px;
+    text-transform: none;
+    margin-top: 5px;
 }
 
 #mainNav {
@@ -176,6 +201,33 @@ a:focus, a:hover {
     background: rgba(255, 255, 255, 0.1);
 }
 
+.heading-section::before {
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.4)
+    ),
+    url("../img/work-bg.jpg") no-repeat center center fixed;
+    content: '';
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index:0;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.heading-section {
+    color: white;
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
 .content-section {
     padding-top: 150px;
     padding-bottom: 150px;
@@ -229,22 +281,80 @@ a:focus, a:hover {
     background-size: cover;
 }
 
-.sar-section {
-    color: white;
+.grainite-section::before {
     background: linear-gradient(
             rgba(0, 0, 0, 0.8),
             rgba(0, 0, 0, 0.4)
     ),
-    url("../img/sar-bg.jpg") no-repeat scroll center center;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    url("../img/grainite-bg.jpg") no-repeat center center fixed;
+    content:'';
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index:0;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    filter: blur(10px);
 }
 
+.grainite-section {
+    color: white;
+    position: relative;
+}
+
+.sar-section::before {
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.4)
+    ),
+    url("../img/sar-bg.jpg") no-repeat center center fixed;
+    content:'';
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index:0;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.sar-section {
+    color: white;
+    position: relative;
+}
+
+.avocado-section::before {
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.4)
+    ),
+    url("../img/avocado-bg.jpg") no-repeat center center fixed;
+    content:'';
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index:0;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.avocado-section {
+    color: white;
+    position: relative;
+}
 .social-section {
     color: white;
     background: black;

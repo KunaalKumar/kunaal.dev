@@ -40,13 +40,17 @@
     $(window).scroll(navbarCollapse);
 
     var typed = new Typed("#typed", {
-        strings: ['student', 'software developer', 'coder', 'mobile developer', 'full-stack developer', 'web developer'],
+        strings: [
+            'software engineer',
+            'mobile developer',
+            'full-stack developer',
+            'web developer'],
         typeSpeed: 50,
         backSpeed: 30,
         backDelay: 700,
         fadeOut: false,
         loop: true,
-        loopCount: Infinity,
+        loopCount: Infinity
     });
 
 })(jQuery); // End of use strict
