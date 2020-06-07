@@ -74,6 +74,19 @@ headingText {
     text-transform: uppercase;
 }
 
+.position {
+    color: #42dca3;
+    font-size: 24px;
+    text-transform: none;
+    margin: 0;
+}
+
+.year {
+    font-size: 12px;
+    text-transform: none;
+    margin-top: 5px;
+}
+
 #mainNav {
     font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin-bottom: 0;
@@ -220,31 +233,6 @@ headingText {
     padding-bottom: 150px;
 }
 
-.grainite-section::before {
-    background: linear-gradient(
-            rgba(0, 0, 0, 0.8),
-            rgba(0, 0, 0, 0.4)
-    ),
-    url("../img/grainite-bg.jpg") no-repeat center center fixed;
-    content:'';
-    position:absolute;
-    height:100%;
-    width:100%;
-    z-index:0;
-    left:0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    -webkit-filter: blur(10px);
-    -moz-filter: blur(10px);
-    filter: blur(10px);
-}
-
-.grainite-section {
-    color: white;
-    position: relative;
-}
-
 .alder-section {
     color: white;
     background: linear-gradient(
@@ -291,6 +279,31 @@ headingText {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.grainite-section::before {
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.4)
+    ),
+    url("../img/grainite-bg.jpg") no-repeat center center fixed;
+    content:'';
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index:0;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.grainite-section {
+    color: white;
+    position: relative;
 }
 
 .sar-section::before {
