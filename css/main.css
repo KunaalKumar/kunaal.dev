@@ -10,12 +10,12 @@ body {
 /*Colored scroll bar*/
 
 body::-webkit-scrollbar {
-width: 0.2em;
-background: transparent;
+    width: 0.2em;
+    background: transparent;
 }
 
 body::-webkit-scrollbar-thumb {
-background-color: #42dca3;
+    background-color: #42dca3;
 }
 
 html {
@@ -206,7 +206,8 @@ headingText {
             rgba(0, 0, 0, 0.8),
             rgba(0, 0, 0, 0.4)
     ),
-    url("../img/work-bg.jpg") no-repeat center center fixed;
+    url("../img/work-bg.jpg") no-repeat fixed;
+    background-size: cover;
     content: '';
     position:absolute;
     height:100%;
@@ -217,7 +218,6 @@ headingText {
     top: 0;
     bottom: 0;
     -webkit-filter: blur(10px);
-    -moz-filter: blur(10px);
     filter: blur(10px);
 }
 
@@ -233,60 +233,13 @@ headingText {
     padding-bottom: 150px;
 }
 
-.alder-section {
-    color: white;
+.alder-section::before {
     background: linear-gradient(
             rgba(0, 0, 0, 0.4),
             rgba(0, 0, 0, 0.4)
     ),
-    url("../img/downloads-bg.jpg") no-repeat scroll center center;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    url("../img/alder-bg.jpg") no-repeat fixed;
     background-size: cover;
-}
-
-.ignis-section {
-    color: white;
-    background: linear-gradient(
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)
-    ),
-    url("../img/ignis-bg.jpg") no-repeat scroll center center;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.sugsn-section {
-    color: white;
-    background: linear-gradient(
-            rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.4)
-    ),
-    url("../img/sugsn-bg.png") no-repeat scroll center center;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.grainite-section::before {
-    background: linear-gradient(
-            rgba(0, 0, 0, 0.8),
-            rgba(0, 0, 0, 0.4)
-    ),
-    url("../img/grainite-bg.jpg") no-repeat center center fixed;
     content:'';
     position:absolute;
     height:100%;
@@ -297,7 +250,81 @@ headingText {
     top: 0;
     bottom: 0;
     -webkit-filter: blur(10px);
-    -moz-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.alder-section {
+    color: white;
+    position: relative;
+}
+
+.ignis-section::before {
+    color: white;
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+    ),
+    url("../img/ignis-bg.jpg") no-repeat fixed;
+    background-size: cover;
+    content:'';
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index:0;
+    left:0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.ignis-section {
+    color: white;
+    position: relative;
+}
+
+.sugsn-section::before {
+    color: white;
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+    ),
+    url("../img/sugsn-bg.jpg") no-repeat scroll;
+    background-size: cover;
+    content:'';
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index:0;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.sugsn-section {
+    color: white;
+    position: relative;
+}
+.grainite-section::before {
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.4)
+    ),
+    url("../img/grainite-bg.jpg") no-repeat fixed center center;
+    content:'';
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index:0;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-filter: blur(10px);
     filter: blur(10px);
 }
 
@@ -311,7 +338,8 @@ headingText {
             rgba(0, 0, 0, 0.8),
             rgba(0, 0, 0, 0.4)
     ),
-    url("../img/sar-bg.jpg") no-repeat center center fixed;
+    url("../img/sar-bg.jpg") no-repeat fixed;
+    background-size: cover;
     content:'';
     position:absolute;
     height:100%;
@@ -322,7 +350,6 @@ headingText {
     top: 0;
     bottom: 0;
     -webkit-filter: blur(10px);
-    -moz-filter: blur(10px);
     filter: blur(10px);
 }
 
@@ -336,7 +363,8 @@ headingText {
             rgba(0, 0, 0, 0.8),
             rgba(0, 0, 0, 0.4)
     ),
-    url("../img/avocado-bg.jpg") no-repeat center center fixed;
+    url("../img/avocado-bg.jpg") no-repeat fixed;
+    background-size: cover;
     content:'';
     position:absolute;
     height:100%;
@@ -347,7 +375,6 @@ headingText {
     top: 0;
     bottom: 0;
     -webkit-filter: blur(10px);
-    -moz-filter: blur(10px);
     filter: blur(10px);
 }
 
@@ -450,7 +477,6 @@ img::-moz-selection {
 
 /*Pace --> Page Loading*/
 .pace {
-    -webkit-pointer-events: none;
     pointer-events: none;
 
     -webkit-user-select: none;
@@ -490,7 +516,6 @@ img::-moz-selection {
     ),
     url("../img/intro-bg.jpg") no-repeat scroll bottom center;
     background-position: center;
-    background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
