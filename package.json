@@ -19,16 +19,16 @@
     "url": "https://github.com/kunaalkumar/kunaal.dev.git"
   },
   "dependencies": {
-    "bootstrap": "^4.5.2",
+    "bootstrap": "^5.0.1",
     "cryptiles": ">=4.1.2",
     "font-awesome": "4.7.0",
-    "jquery": "3.5.0",
+    "jquery": "^3.6.0",
     "jquery.easing": "^1.4.1",
     "lodash": ">=4.17.21",
     "sshpk": ">=1.13.2"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.12",
+    "browser-sync": "^2.26.14",
     "gulp": "^4.0.2",
     "gulp-clean-css": "3.9.4",
     "gulp-header": "2.0.5",

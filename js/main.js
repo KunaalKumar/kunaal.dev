@@ -108,18 +108,18 @@ var descrTextAnimDelay3 = {
 var downBtnAnim = {
     delay: 1500,
     origin: "top",
-    rotate: {x: 10, y: 100, z: 100},
+    rotate: { x: 10, y: 100, z: 100 },
     duration: 1000
 };
 
 var downBtnAnimDelay1 = {
     delay: 1700,
     origin: "top",
-    rotate: {x: 10, y: 100, z: 100},
+    rotate: { x: 10, y: 100, z: 100 },
     duration: 1000
 };
 
-window.sr = ScrollReveal({reset: false});
+window.sr = ScrollReveal({ reset: false });
 sr.reveal(".brand-heading", headingAnim);
 sr.reveal(".desc-text", descrTextAnim);
 sr.reveal(".desc-text1", descrTextAnimDelay1);

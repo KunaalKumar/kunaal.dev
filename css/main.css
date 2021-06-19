@@ -82,7 +82,7 @@ headingText {
 }
 
 .year {
-    font-size: 12px;
+    font-size: 16px;
     text-transform: none;
     margin-top: 5px;
 }
@@ -307,6 +307,53 @@ headingText {
     color: white;
     position: relative;
 }
+.grainite-internship-section::before {
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.4)
+    ),
+    url("../img/grainite-internship-bg.jpg") no-repeat fixed center center;
+    content:'';
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index:0;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.grainite-internship-section {
+    color: white;
+    position: relative;
+}
+.kaos-section::before {
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.4)
+    ),
+    url("../img/kaos-bg.jpg") no-repeat fixed center center;
+    content:'';
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index:0;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.kaos-section {
+    color: white;
+    position: relative;
+}
+
 .grainite-section::before {
     background: linear-gradient(
             rgba(0, 0, 0, 0.8),
